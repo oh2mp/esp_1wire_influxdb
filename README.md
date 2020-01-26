@@ -28,14 +28,14 @@ also changed from the code, see row `#define APREQUEST PIN_D1`
 
 You will also need 10k pullup resistor from RST and D3 pins and 10k pulldown from D8 to get right boot mode.
 
-By default the software assumes that there are max 8 sensors, but this can be changed from the code,
+By default the software assumes that there are maximum 8 sensors, but this can be changed from the code,
 see row `#define MAX_SENSORS 8`
 
 ## Portal mode
 When your board is in portal mode, it blinks both onboard LEDs. Take your phone and connect to AP *ESP8266 1WIRE*
-and accept that there's no internet connecion etc.
+and accept that there's no internet connection etc.
 
-Open your browser and go to http://192.168.4.1/
+Open your browser and go to `http://192.168.4.1/`
 
 The web GUI should be self explanatory.
 
