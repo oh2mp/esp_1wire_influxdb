@@ -10,7 +10,7 @@ A simple WLAN-configurable onewire temperature reader that sends data to an Infl
 - [Arduino IDE](https://www.arduino.cc/en/main/software)
 - [Arduino ESP8266 filesystem uploader](https://github.com/esp8266/arduino-esp8266fs-plugin)
 
-Following libraries:
+Required libraries:
 
 OneWire, DallasTemperature, ESP8266WiFi, ESP8266WiFiMulti,  ESP8266HTTPClient, WiFiClientSecure,
 WiFiClient, DNSServer, ESP8266WebServer, FS
