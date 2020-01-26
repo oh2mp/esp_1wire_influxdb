@@ -32,6 +32,10 @@ You will also need 10k pullup resistor from RST and D3 pins and 10k pulldown fro
 By default the software assumes that there are maximum 8 sensors, but this can be changed from the code,
 see row `#define MAX_SENSORS 8`
 
+## Sending to your InfluxDB
+Both onboard leds are lit when the sofware is sending data. Quite lot of information is sent also to the
+serial line, so you can test it with the serial monitor of Arduino IDE.
+
 ## Portal mode
 When your board is in portal mode, it blinks both onboard LEDs. Take your phone and connect to WiFi network 
 **ESP8266 1WIRE** and accept that there's no internet connection etc.
@@ -42,10 +46,6 @@ The web GUI should be self explanatory.
 
 There's almost no sanity checks for the data sent from the forms. This is not a public web service and if you
 want to mess up your board or make a denial of service to it using eg. buffer overflows, feel free to do so.
-
-## Sending to your InfluxDB
-Both onboard leds are lit when the sofware is sending data. Quite lot of information is sent also to the
-serial port, so you can test it with the serial monitor of Arduino IDE.
 
 ### Sample screenshot from the portal
 ![screenshot](screenshot.jpg)
