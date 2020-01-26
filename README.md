@@ -7,6 +7,7 @@ A simple WLAN-configurable onewire temperature reader that sends data to an Infl
 
 ## Software prerequisities
 - [InfluxDB](https://www.influxdata.com/) running somewhere in the internet
+(or another software that can handle similar POST request).
 - [Arduino IDE](https://www.arduino.cc/en/main/software)
 - [Arduino ESP8266 filesystem uploader](https://github.com/esp8266/arduino-esp8266fs-plugin)
 
@@ -32,8 +33,8 @@ By default the software assumes that there are maximum 8 sensors, but this can b
 see row `#define MAX_SENSORS 8`
 
 ## Portal mode
-When your board is in portal mode, it blinks both onboard LEDs. Take your phone and connect to AP *ESP8266 1WIRE*
-and accept that there's no internet connection etc.
+When your board is in portal mode, it blinks both onboard LEDs. Take your phone and connect to WiFi network 
+**ESP8266 1WIRE** and accept that there's no internet connection etc.
 
 Open your browser and go to `http://192.168.4.1/`
 
@@ -46,4 +47,5 @@ want to mess up your board or make a denial of service to it using eg. buffer ov
 Both onboard leds are lit when the sofware is sending data. Quite lot of information is sent also to the
 serial port, so you can test it with the serial monitor of Arduino IDE.
 
-
+### Sample screenshot from the portal
+![screenshot](screenshot.jpg)
