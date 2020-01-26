@@ -6,6 +6,7 @@ A simple WLAN-configurable onewire temperature reader that sends data to an Infl
 - One or more Dallas DS18?20 sensors
 
 ## Software prerequisities
+- [InfluxDB](https://www.influxdata.com/) running somewhere in the internet
 - [Arduino IDE](https://www.arduino.cc/en/main/software)
 - [Arduino ESP8266 filesystem uploader](https://github.com/esp8266/arduino-esp8266fs-plugin)
 
