@@ -47,5 +47,6 @@ The web GUI should be self explanatory.
 There's almost no sanity checks for the data sent from the forms. This is not a public web service and if you
 want to mess up your board or make a denial of service to it using eg. buffer overflows, feel free to do so.
 
-### Sample screenshot from the portal
+### Sample screenshots from the portal
 ![screenshot](screenshot.jpg)
+![screenshot2](screenshot2.jpg)
