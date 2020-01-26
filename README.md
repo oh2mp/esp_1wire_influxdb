@@ -27,8 +27,6 @@ If you use parasite power, put a 4k7 resistor between 1wire data line and 3V3.
 You can connect a switch between D1 and GND. If D1 is grounded, the esp8266 starts portal mode. The pin can be
 also changed from the code, see row `#define APREQUEST PIN_D1`
 
-You will also need 10k pullup resistor from RST and D3 pins and 10k pulldown from D8 to get right boot mode.
-
 By default the software assumes that there are maximum 8 sensors, but this can be changed from the code,
 see row `#define MAX_SENSORS 8`
 
