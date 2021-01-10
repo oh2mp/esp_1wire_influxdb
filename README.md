@@ -1,6 +1,12 @@
 # esp8266 onewire to InfluxDB client
 A simple WLAN-configurable onewire temperature reader that sends data to an InfluxDB
 
+-----------
+
+__This software is not maintained anymore. I suggest using [OH2MP ESP8266-DS1820-MQTT](https://github.com/oh2mp/esp8266_ds1820_mqtt) instead.__
+
+-----------
+
 ## Hardware prerequisities
 - An esp8266 board
 - One or more Dallas DS18?20 sensors
